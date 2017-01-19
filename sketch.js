@@ -106,7 +106,7 @@ function keyPressed() {
 
     ship.setdir(-1);
   }
-  if (key == ' ') {
+  if (keyCode == UP_ARROW) {
 
     var Gun = new gun(ship.x, height - 53);
     guns.push(Gun);
